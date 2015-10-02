@@ -65,7 +65,7 @@ func parseArgs() (string, string) {
 			master = defaultMasterLocation
 		}
 
-		return defaultMasterLocation, args[1]
+		return master, args[1]
 	}
 
 	return args[1], args[2]
